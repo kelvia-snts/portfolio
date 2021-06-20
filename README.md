@@ -1,6 +1,6 @@
 # portfolio
 
-* Portfolio simples desenvolvido para reforçar os conhecimentos do React.js
+* Portfolio desenvolvido utilizando React.js
 
 
-Link: http://portfoliokelvia2021.surge.sh/
+Link: https://portfoliokelvia21.surge.sh/
