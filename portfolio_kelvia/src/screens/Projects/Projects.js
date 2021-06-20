@@ -7,7 +7,11 @@ import labeddit from "../../assets/Labeddit.png";
 import landingPage from "../../assets/landingPage.png";
 import futureNinja from "../../assets/futureNinja.png";
 import pokedex from "../../assets/pokedex.png";
+import podcastr from "../../assets/podcastr.png";
 import labefood from "../../assets/labefood.jpg";
+import happy  from "../../assets/happy.jpg";
+import instagram  from "../../assets/CloneInstagram.PNG";
+import portfolio  from "../../assets/portfolio.jpeg";
 import labECommerce from "../../assets/labECommerce.png";
 import {ProjectPageContainer} from "./styled"
 
@@ -116,7 +120,36 @@ const Project = () => {
             link="https://github.com/future4code/Kelvia-Sousa/pull/46"
             name="Ver Projeto"
           />
-          
+
+          <h2>Projetos Eventos Online</h2>
+          <ProjectCard
+            title="Podcastr"
+            description="Projeto criado durante o NLW. Next.js, Reactjs, TypeScript"
+            image={podcastr}
+            link="https://github.com/kelvia-snts/Podcastr"
+            name="Ver projeto"
+          />
+          <ProjectCard
+            title="Happy"
+            description="Projeto full-stack de cadastro e marcação de visitas à orfanatos no NLW. HTML, CSS, Javascript, Node, SQL"
+            image={happy}
+            link="https://github.com/kelvia-snts/nlw"
+            name="Ver projeto"
+          />
+          <ProjectCard
+            title="Portfolio"
+            description="Projeto de um portfolio. HTML e CSS"
+            image={portfolio}
+            link="https://github.com/kelvia-snts/imersaoDoZero_CubosAcademy"
+            name="Ver projeto"
+          />
+          <ProjectCard
+            title="Instagram"
+            description="Projeto clone da página inicial do instagram. HTML, CSS"
+            image={instagram}
+            link="https://github.com/kelvia-snts/INTAGRAM"
+            name="Ver projeto"
+          />
         </div>
     
     </ProjectPageContainer>

@@ -13,6 +13,8 @@ h3{
 }
 img{
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 p{
   text-align: justify;
@@ -24,7 +26,6 @@ a{
 }
 @media (max-width:600px) {
   margin-top: 10px;
-
   p{
     font-size: 13px;
   }
