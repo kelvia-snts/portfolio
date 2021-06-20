@@ -9,43 +9,49 @@ img{
   margin-left: -25px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
+  box-shadow:
+    12px 0 5px 7px white,
+    0 0 0 15px gray;
 }
 h2{
   font-size: 2rem;
   margin:0;
-  margin-top: -20px;
   text-align: center;
 }
 p{
   font-size: 1.3rem;
   text-align: justify;
-  padding: 10px;
+  padding: 90px;
   text-indent: 1.5em;
+  margin-top: -50px;
 }
 @media (max-width:600px) {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: -70px;
   img{
     width: 90%;
     height: 30vh;
-    margin-left: 2px;
+    margin-left: 5px;
     border-radius: 10px;
+    box-shadow: none;
   }
   h2{
     margin-top: 10px;
   }
   p{
-    width:  95%;
+    width:  90%;
     font-size: 17px;
-    margin-top: 0px;
+    padding: 0;
+    margin: 0 20px;
   }
 }
 `
 
 export const Curriculum  = styled.div`
-  margin-left: 250px;
-  margin-top: -50px;
+  margin-left: 270px;
+  margin-top: -80px;
   display: flex;
   justify-content: space-around;
   a{
@@ -58,11 +64,9 @@ export const Curriculum  = styled.div`
   }
   @media (max-width:600px) {
     display: flex;
-    width: 99%;
+    width: 100%;
     margin: 0px;
     align-items: center;
-    a{
-      width: 5vh;
-    }
+   
   }
 ` 
