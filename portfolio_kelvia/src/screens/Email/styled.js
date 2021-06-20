@@ -10,4 +10,10 @@ export const ContactContainer = styled.form`
     width: 50vw;
     margin-top: 30px;
   }
+  @media (max-width:600px) {
+    height: 80vh;
+    a{
+      margin-top: 50px;
+    }
+  }
 ` 
