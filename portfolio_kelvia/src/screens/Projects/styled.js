@@ -10,4 +10,10 @@ export const ProjectPageContainer = styled.div`
     margin-bottom: 50px;
     color: #808080;
   }
+  @media (max-width:600px) {
+    h2{
+      margin-top: 45px;
+      border-top: 1px solid gray;
+    }
+  }
 ` 

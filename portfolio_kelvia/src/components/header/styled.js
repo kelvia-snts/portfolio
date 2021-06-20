@@ -18,4 +18,14 @@ export const HeaderContainer = styled.div`
   p{
     margin-right:300px;
   }
+  @media (max-width:600px) {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;    
+   p{
+      margin: 0px; 
+    }
+  }
 `

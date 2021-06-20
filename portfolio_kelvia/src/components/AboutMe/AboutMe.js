@@ -23,7 +23,7 @@ export const AboutMe = () => {
           tecnologia e atualmente estudo metodologias ágeis e programação web,
           desenvolvendo, semanalmente, projetos web individuais e em grupo
           utilizando as seguintes tecnologias: Frontend: HTML, CSS, JavaScript,
-          Reactjs, Jest Backend:Node, TypeScript, MySQL,AWS.
+          Reactjs, Jest Backend:Node, TypeScript, MySQL,AWS. 
         </p>
       </div>
       <div>

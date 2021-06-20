@@ -22,4 +22,11 @@ p{
 a{
   width: 100%;
 }
+@media (max-width:600px) {
+  margin-top: 10px;
+
+  p{
+    font-size: 13px;
+  }
+}
 `
